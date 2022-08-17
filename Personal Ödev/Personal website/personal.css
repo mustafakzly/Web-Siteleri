@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.body{
+    background: url(background.png) no-repeat center center;
+    background-size: cover;
+}
+.position{
+    display: flex;
+    flex-direction: row;
+}
+.box{
+    height: 600px;
+    width: 35%;
+    background: url(WhatsApp\ Image\ 2021-11-27\ at\ 13.24.51.jpeg) no-repeat center center;
+    background-size: cover;
+    background-color: grey;
+    margin-left: 8%;
+    margin-top: 6%;
+    border-radius: 30px;
+    box-shadow: 0 4px 4px 4px rgba(255, 255, 255, 0.075);
+  
+}
+.write{
+    color: white;
+    margin-top: 17%;
+    margin-left: 15%;
+}
+.write h1{
+    color: red;
+    font-size: 45px;
+}
+.write h2{
+    font-size: 35px;
+}
+
+.write p{
+    margin-top: 5%;
+    margin-right: 40%;
+    font-size: 20px;
+}
+.btn{
+    width: 200px;
+    height: 50px;
+    border: 2px red solid;
+    border-radius: 50px;
+    background-color: transparent;
+    color: white;
+    margin-top: 5%;
+    cursor: pointer;
+}
+.link{
+    margin-top: 250px;
+}
+.link img{
+    height: 40px;
+    border-radius: 20px;
+}
+.box2{
+
+    opacity: 0;
+    height: 40px;
+    width: 150px;
+    position: relative;
+    top: -45px;
+    right: 95px;
+    border-radius: 20px;
+}
+.box2 p{
+    padding-left: 15%;
+    padding-top: 7%;
+}
+.link a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+.box2:hover{
+    opacity: 1;
+    background-color: rgba(255, 0, 0, 0.363);
+    transform: translateX(-15px);
+    transition:  1s ease;
+
+}

@@ -1,0 +1,2 @@
+javascript - object değişken tanımlama sorulacak
+split sorulacak  büyük ihtimalle
