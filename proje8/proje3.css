@@ -1,0 +1,446 @@
+.img1{
+    height: 1000px;
+    background: url(a1.jpg) no-repeat center center; 
+    background-size: cover;
+}
+.block1{
+    background-color: #FFB900;
+    color: white;
+    font-size: 4vh;
+    font-weight: bold;
+    padding: 20px;
+    width: 30%;
+    text-align: end;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 0;
+}
+.nav{
+    display: flex;
+}
+.nav-item a{
+    color: white;
+    padding: 50px;
+    font-size: 30px;
+}
+.nav-item a:hover{
+    color: white;
+}
+@media (min-width:800px) and (max-width:1200px){
+    .nav{
+        text-align: start;
+        flex-direction: row; 
+    }
+    .nav-item a{
+        text-align: start;
+        font-size: 5vh;
+        justify-content: start;
+        padding: 10px;
+        margin-top: 20px;
+    }
+    .block1{
+        background-color: #FFB900;
+        color: white;
+        font-size: 4vh;
+        font-weight: bold;
+        padding: 20px;
+        width: 25%;
+        text-align: end;
+        position: absolute;
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    .img1{
+        height: 600px;
+        background: url(a1.jpg) no-repeat center center; 
+        background-size: cover;
+    }
+}
+@media (max-width:800px){
+    .nav{
+        flex-direction: column; 
+    }
+    .nav-item a{
+        font-size: 5vh;
+        padding: 10px;
+    }
+    .block1{
+        display: none;
+    }
+    .img1{
+        height: 600px;
+        background: url(a1.jpg) no-repeat center center; 
+        background-size: cover;
+    }
+}
+
+
+.block2{
+    background-color: #FFB900;
+    color: white;
+    padding: 75px;
+    width: 100%;
+    margin-top: 20%;
+}
+.block2 h1{
+    position: absolute;
+    font-size: 100px;
+    margin-left: 5%;
+    margin-top: -50px;
+    font-weight: bold ;
+}
+.block2 h2{
+    position: absolute;
+    font-size: 100px;
+    margin-top: 40px;
+    margin-left: 5%;
+}
+.button2{
+    background-color: #FFB900;
+    color: white;
+    border: 5px white solid;
+    font-size: 50px;
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 2%;
+    padding-left: 50px;
+    padding-right: 20px;
+}
+@media (min-width:800px) and (max-width:1200px) {
+    .block2{
+        padding: 30px;
+        margin-top: 50px;
+    }
+    .block2 h1{
+        margin-top: 0;
+        font-size: 30px;
+    }
+    .block2 h2{
+        margin-top: 24px;
+        font-size: 40px;
+    }
+    .button2{
+        background-color: #FFB900;
+        color: white;
+        font-size: 20px;
+        margin-top: 10px;
+    }
+}
+@media (max-width:800px) {
+    .block2{
+        padding: 30px;
+        margin-top: 50px;
+    }
+    .block2 h1{
+        margin-top: 0;
+        font-size: 30px;
+    }
+    .block2 h2{
+        margin-top: 24px;
+        font-size: 40px;
+    }
+    .button2{
+        background-color: #FFB900;
+        color: white;
+        font-size: 20px;
+        margin-top: 10px;
+        
+    }
+}
+.block3{
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #242424;
+    color: white;
+    height: 600px;
+    width: 100%;
+}
+.p{
+    border-left: 4px white solid;
+    margin-left: 16%;
+    margin-top: 50px;
+    margin-right: 10%;
+}
+.block3 h1{
+    margin-left: 15%;
+    margin-top: -70px;
+}
+.block4{
+    background-color: #FFB900;
+    height: 200px;
+    width: 800px;
+    position: absolute;
+    margin-left: 12%;
+    margin-top: 15%;
+}
+.block4 p {
+    margin-left: 2%;
+}
+
+.img2{
+    width: 700px;
+    height: 400px;
+    background: url(a2.jpg) no-repeat; 
+    background-size: cover;
+    position: absolute;
+    right: 0;
+    margin-top: 7%;
+    background-position: center;
+    
+}
+@media (min-width:1000px) and (max-width:1200px) {
+    .block4{
+    background-color: #FFB900;
+    height: 200px;
+    width: 600px;
+    position: absolute;
+    margin-left: 12%;
+    margin-top: 15%;
+    }
+    .block3{
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #242424;
+    color: white;
+    height: 600px;
+    width: 100%;
+    }
+}
+@media (min-width:700px) and (max-width:1000px) {
+    .block4{
+    background-color: #FFB900;
+    height: 200px;
+    width: 400px;
+    position: absolute;
+    margin-left: 12%;
+    margin-top: 15%;
+    }
+    .block3{
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #242424;
+    color: white;
+    height: 600px;
+    width: 100%;
+    }
+    .img2{
+    width: 500px;
+    height: 400px;
+    background: url(a2.jpg) no-repeat; 
+    background-size: cover;
+    position: absolute;
+    right: 0;
+    margin-top: 7%;
+    background-position: center;  
+    }
+}
+@media (max-width:700px){
+    .block4{
+    background-color: #FFB900;
+    height: 200px;
+    width: 250px;
+    position: absolute;
+    margin-left: 12%;
+    margin-top: 25%;
+    }
+    .block3{
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #242424;
+    color: white;
+    height: 600px;
+    width: 100%;
+    }
+    .img2{
+    width: 500px;
+    height: 300px;
+    background: url(a2.jpg) no-repeat; 
+    background-size: cover;
+    position: absolute;
+    right: 0;
+    margin-top: 7%;
+    background-position: center;  
+    }
+    .block3 h1{
+        margin-left: 15%;
+        margin-top: -70px;
+    }
+}
+.ortalama{
+    height: 450px;
+    padding: 50px;
+    margin-top: 100px;
+}
+.ortalama h1{
+    color: #FFB900;
+}
+@media (max-width:750px){
+    .ortalama{
+        margin-top: 0;
+    }
+}
+.img3{
+    max-width: 100%;
+    height: 1400px;
+    background: url(a3.jpg) no-repeat center center; 
+    background-size: cover;
+}
+.h1{
+    color: #FFB900;
+    font-weight: bold;
+    text-align: center;
+    padding: 100px;
+}
+.h2{
+    color: #FFB900;
+    font-weight: bold;
+    border: 2px white solid;
+    margin-left: 300px;
+    padding-left: 300px ;
+    padding-bottom: 50px ;
+    padding-top: 20px;
+}
+.block5{
+    position: absolute;
+    right: 0;
+    background-color: #FFB900;
+    width: 1000px;
+    height: 450px;
+    margin-top: 50px; 
+}
+.write{
+    color: white;
+    position: absolute;
+    font-size: 35px;
+    margin-left: 50px;
+    margin-top: 75px;
+}
+.block6{
+    position: absolute;
+    background-color: #fed800a8;
+    width: 75px;
+    height: 475px;
+    top: 0;
+    right: -200px;
+}
+.pposition{
+    position: absolute;
+    left: -20px;
+    font-weight: bold;
+}
+.pposition p{
+    margin-bottom: 75px;
+}
+.block7{
+    border: 2px white solid;
+    margin-top: 100px;
+    margin-left: -250px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.block8{
+    background-color: #242424;
+    padding: 20px;
+}
+.write2{
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 100px;
+    padding-top: 100px ;
+}
+.write2 h1{
+    color: #FFB900;
+}
+.write2 p{
+    color: white;
+}
+.write3{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: bold;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.img4{
+    max-width: 100%;
+    height: 1200px;
+    background: url(a4.jpg) no-repeat center center; 
+    background-size: cover;
+}
+.img4 h1{
+    position: absolute;
+    right: 150px;
+    margin-top: 100px;
+    color: white;
+}
+.block9{
+    background-color: #FFB900;
+    width: 500px;
+    height: 600px;
+    position: absolute;
+    right: 150px;
+    margin-top: 250px;
+    padding: 70px;
+}
+.block9 p{
+    margin-top: 20px;
+    color: white;
+    font-size: 40px;
+}
+.block9 h2{
+    color: white;
+}
+.price{
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+    text-align: end;
+}
+.price h3{
+    color: white;
+    font-size: 35px;
+}
+.block10{
+    background-color: #FFB900;
+    width: 400px;
+    height: 125px;
+    position: absolute;
+    right: 150px;
+    margin-top: 900px;  
+}
+.apply{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    position: absolute;
+    left: 50px;
+    bottom: 0;
+}
+.block11{
+    background-color: #242424;
+    height: 1200px;
+}
+.block11 h1{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 10%;
+    color: #FFB900;
+}
+.block12{
+    background-color: #FFB900;
+    height: 1200px;
+    width: 225px;
+    position: absolute;
+    left: 350px;
+}
+.img5{
+    max-width: 100%;
+    height: 500px;
+    background: url(a2.jpg) no-repeat center center; 
+    background-size: cover; 
+    position: relative;
+    z-index: 1;
+    margin-top: 50px;
+}
