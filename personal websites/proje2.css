@@ -1,0 +1,281 @@
+.logo{
+    background-color: #FFFFFF;
+    padding: 40px;
+}
+.logo a{
+    font-size: 20px;
+    color: #F5A88C;
+    text-decoration: none;
+}
+.arka-plan{
+    background-color: #898F8F;
+}
+.ul{
+    margin-left: 30px;
+}
+.ul a{
+    color: white;
+}
+.ul a:hover{
+    color: black;
+}
+.grey{
+    background-color: #B5BDBF;
+    width: 100%;
+    height: 500px;
+}
+.grey h1{
+    font-size: 3rem;
+    position: relative;
+    right: -1050px;
+    top: 300px;
+    color: white;
+ 
+}
+.grey h2{
+    position: relative;
+    right: -1070px;
+    top: 300px;
+    color: #F5A88C;
+    font-size: 25px;   
+}
+.background-ct{
+    background-color: #FFFFFF;
+}
+.write{
+    margin-top: 150px;
+    color: #BF5E34;
+    text-align: center;
+}
+.border{
+    width: 250px;
+    margin: 0 auto;
+    justify-content: center;
+    background-color: #AE7860;
+}
+.background-ct p{
+    margin: 100px;
+}
+.img{
+    margin-left: 70px;
+    margin-right: 50px;
+    text-align: center;
+    align-items: center;
+}
+.img h2{
+    margin-top: 50px;
+}
+.img p{
+    margin-top: 50px;
+    margin-bottom: 50%;
+}
+.img2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+}
+.hours-section{
+    background-color: #0A2C35;
+}
+.hours{
+
+    text-align: center;
+    padding: 80px;
+}
+.hours h1{
+    margin-bottom: 20px;
+    color: #9A5337;
+}
+.hours p{
+    color: white;
+}
+.resim{
+    height: 750px;
+    background: url(a11.png) no-repeat center center; 
+    background-size: cover;
+}
+.form{
+    background-color: #173C45;
+    color: #898A8E;
+    padding: 350px;
+}
+.form h1,p{
+    color: #BFBFBF;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.form1{
+    font-weight: bold;
+    width: 400px;
+    padding: 10px;
+    color: #BFBFBF;
+    background-color: #173C45;
+    border: 0;
+    border-bottom: 2px #898A8E solid;
+    margin-bottom: 50px;
+}
+.form2{
+    font-weight: bold;
+    width: 820px;
+    padding: 10px;
+    background-color: #173C45;
+    border: 0;
+    border-bottom: 2px #898A8E solid;
+    margin-bottom: 50px;
+}
+.form3{
+    font-weight: bold;
+    width: 820px;
+    padding: 10px;
+    height: 150px;
+    background-color: #173C45;
+    border: 0;
+    border-bottom: 2px #898A8E solid;
+    margin-bottom: 50px;
+}
+.button{
+    font-size: 20px;
+    color: white;
+    background-color: #9A5538;
+    border: 2px #6F3319 solid;
+    width: 150px;
+    height: 50px;
+}
+.resim2{
+    height: 750px;
+    background: url(a4.jpg) no-repeat center center; 
+    background-size: cover;
+}
+.resim3{
+    height: 470px;
+    background: url(a5.jpg) no-repeat center center; 
+    background-size: cover;
+    margin-top: 160px;
+}
+.resim4{
+    height: 120px;
+    width: 120px;
+    background: url(a6.jpg) no-repeat center center; 
+    background-size: cover;
+    border-radius: 100%;
+}
+.resim5{
+    height: 120px;
+    width: 120px;
+    background: url(a7.jpg) no-repeat center center; 
+    background-size: cover;
+    border-radius: 100%;
+}
+.resim6{
+    height: 120px;
+    width: 120px;
+    background: url(a8.jpg) no-repeat center center; 
+    background-size: cover;
+    border-radius: 100%;
+}
+.cizgi{
+    border-left: 3px solid black;
+    height: 20px;
+    margin-left: 60px;
+    bottom: 0;
+}
+.ayarlama{
+    margin-left: 60px;
+}
+.metin{
+    margin-top:  190px;
+    text-align: center;
+    border: 3px #D3D4D8 solid;
+    background-color: white;
+    padding: 20px;
+}
+.metin h1{
+    color: black;
+}
+.metin p{
+    margin-left: 100px;
+    margin-right: 100px;
+    color: #3F3F3F;
+}
+.metin2{
+    width: 125px;
+    font-size: 15px;
+    border: 2px black solid;
+}
+.write2{
+    margin-top: 120px;
+    color: #BF5E34;
+    text-align: center;
+}
+.write2 h1{
+    margin-bottom: 50px;
+}
+.write2 p{
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 150px;
+}
+.resim7{
+    height: 550px;
+    background: url(a12.jpg) no-repeat center center; 
+    background-size: cover;
+}
+.resim8{
+    height: 550px;
+    background: url(a13.jpg) no-repeat center center; 
+    background-size: cover;
+}
+.resim9{
+    height: 550px;
+    background: url(a14.jpg) no-repeat center center; 
+    background-size: cover;
+}
+.resim10{
+    height: 550px;
+    background: url(a15.jpg) no-repeat center center; 
+    background-size: cover;
+}
+.resim11{
+    height: 550px;
+    background: url(a16.jpg) no-repeat center center; 
+    background-size: cover;
+}
+.logo1{
+    float: left;
+    margin-bottom: 25px;
+}
+.logo2{
+    float: right;
+}
+.footer{
+    font-size: 20px;
+    background-color:  #062831;
+    color: #D3D4D8;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+.footer1{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 30px;
+}
+.a19{
+    margin-right: 10px;
+}
+.footer2{
+    display: flex;
+    justify-content: start
+    justify-content: ;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.a20{
+    margin-left: 700px;
+}
+.footer2 p{
+    margin-left: 100px;
+}
