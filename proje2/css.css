@@ -1,0 +1,179 @@
+.background-img{
+    height: 700px;
+    background: url(pexels-krivec-ales-552789.jpg) no-repeat center center; 
+    background-size: cover;
+}
+.background-img a{
+    color: white;
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: 12px;
+}
+.position{
+    padding-left: 15%;
+    padding-right: 13%;
+}
+.box{
+    flex-direction: column;
+    color: white;
+    margin-left: 35%;
+    padding-top: 15%;
+}
+.write{
+    font-size: 40px; 
+}
+.write2{
+    font-size: 20px;
+    padding-top: 10%;
+}
+.input{
+    height: 40px;
+    width: 400px;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    border: 0;
+}
+.button{
+    height: 40px;
+    width: 150px;
+    border: 0;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    position: relative;
+    left: 275px;
+    top: -40px;
+    color: white;
+    background: rgb(106,9,138);
+    background: linear-gradient(90deg, rgba(106,9,138,1) 50%, rgba(0,104,255,1) 100%);
+}
+.write1{
+    position: relative;
+    left: 5%;
+    top: -25px;
+}
+.write3{
+    position: relative;
+    top: -30px;
+}
+.image{
+    position: relative;
+    top: 210px;
+    transform: rotate(15deg);
+}
+.image2{
+    position: relative;
+    top: -120px;
+    margin-left: 31%;
+    transform: rotate(15deg);
+}
+.position1{
+    position: relative;
+    left: 175px;
+    top: -100px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.274);
+   
+}
+.image3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+.position1 h5{
+    text-align: center;
+}
+.position1 p{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.write4{
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+   
+}.write4 h1{
+    color: #263B5E;
+}
+.write4 p{
+    color: #AC899D;
+}
+.image4{
+    margin-left: 35%;
+}
+.write5{
+    font-size: 13px;
+    margin-right: 35%;
+}
+.image5{
+    position: relative;
+    top: 100px;
+}
+.image6{
+    position: relative;
+    top: 50px;
+}
+.position2{
+    margin-left: 35%;
+}
+.write6{
+    margin-left: 15%;
+}
+.image7{
+    position: relative;
+    top: 45px;
+}
+.image8{
+    position: relative;
+    top: 45px;
+}
+.box1{
+    height: 150px;
+    background: url(pexels-mitchell-luo-3694711.jpg) no-repeat center center; 
+    background-size: cover;
+    margin-left: 16%;
+    margin-right: 16%;
+    margin-top: 10%;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.425);
+}
+.write7{
+    padding-top: 8%;
+    padding-left: 10%;
+}
+.button1{
+    height: 40px;
+    width: 150px;
+    border-radius: 50px;
+    border: 0;
+    color: white;
+    background: rgb(106,9,138);
+    background: linear-gradient(90deg, rgba(106,9,138,1) 50%, rgba(0,104,255,1) 100%);
+    position: relative;
+    right: -500px;
+    top: -70px;
+}
+.button2{
+    height: 40px;
+    width: 150px;
+    border-radius: 50px;
+    background-color: #f7effba2;
+    color: #901EC3;
+    border: 0;
+    position: relative;
+    right: -700px;
+    top: -110px;
+}
+.write8{
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 15%;
+}
+.write8 h1{
+    color: #263B5E;
+}
+.write8 p{
+    color: #AC899D;
+}
