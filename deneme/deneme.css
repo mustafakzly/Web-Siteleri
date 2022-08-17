@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    background-color: #C7D3DB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    height: 700px;
+    width: 1300px;
+}
+.left{
+    height: 700px;
+    width: 650px;
+    background-color: #FFFFFF;
+    float: left;
+}
+.right{
+    height: 700px;
+    width: 650px;
+    background-color: #FAF5EE;
+    float: right;
+}
+.black{
+    width: 300px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 29px;
+    padding-left: 70px;
+}
+.first{
+    display: flex;
+    flex-direction: row;
+}
+.img{
+    padding-left: 100px;
+    padding-top: 40px;
+}
+.manken{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.resim{
+    position: absolute;
+    top: 3px;
+}
+.liste{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+    height: 340px;  
+}
+.list{
+    list-style: none;
+    padding-top: 120px;
+
+}
+.list li{
+    padding: 5px;
+    font-size: 16px;
+    padding-left: 30px;
+}
+.right1{
+    padding-top: 120px;
+}
+.small{
+    width: 200px;
+    display: flex;
+    float: right;
+}
+.icon{
+    display: flex;
+    justify-content: end;
+    padding: 40px;
+}
+.icon a{
+    padding: 10px;
+}
+.write{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 150px;
+    padding-right: 120px;
+}
+.write h1{
+    font-size: 40px;
+}
+.write p{
+    padding-bottom: 10px;
+    border-bottom: 1px rgba(0, 0, 0, 0.233) solid;
+}
+.img2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.img2 b{
+    padding-left: 10px;
+    color: rgba(0, 0, 0, 0.644);
+}
+.input{
+    color: rgba(0, 0, 0, 0.397);
+    font-size: 20px;
+    padding: 20px 0;
+    accent-color: black;
+}
+.inputt{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+    border-bottom: 1px rgba(0, 0, 0, 0.233) solid;
+}
+.inputt span{
+    padding-left: 5px;
+}
+.inputtt{
+    padding: 0 20px;
+}
+.input span {
+    color: black;
+    font-weight: bold;
+}
+.btn{
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    border: 0;
+    padding: 20px;
+    font-size: 20px;
+    width: 275px;
+    margin-top: 50px;
+}
