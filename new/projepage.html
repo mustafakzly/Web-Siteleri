@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="new.css?v=2">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <script>
+        function gizleGoster(ID) {
+            var secilenID = document.getElementById(ID);
+            if (secilenID.style.display == "block") {
+                secilenID.style.display = "";
+            } else {
+                secilenID.style.display = "block";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="navbar-left">
+                <a href="new.html"><img src="logo.png"></a>
+            </div>
+            <div class="navbar-right">
+                <a href="blog.html">Blog</a>
+                <a href="hakkımda.html">Hakkımda</a>
+            </div>
+        </div>
+        <div class="proje">
+            <div class="proje-write">
+                <h1>Proje 1</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat itaque ullam perferendis quisquam
+                    laudantium alias et odio! Est ad, laudantium quo deleniti enim consequatur, modi libero placeat
+                    fugit incidunt molestiae repellendus? Doloremque labore quaerat quasi modi corporis quibusdam, cum
+                    cumque. Cupiditate eius adipisci enim quasi qui hic eum placeat sequi corporis animi quas veritatis
+                    ipsam reprehenderit, facere expedita molestias tempore odio dolore nihil ab eos esse rerum?
+                    Laudantium, pariatur numquam commodi soluta ut nobis consequuntur quos asperiores veritatis qui
+                    adipisci fugit nemo quia culpa rem odio. Facilis, ea quae. Dolorum laudantium dignissimos laboriosam
+                    eum, voluptate eveniet fugit suscipit magni repellendus totam repudiandae aliquam, quas rem, impedit
+                    esse beatae voluptatem consequatur. Exercitationem, quia! Voluptatibus alias pariatur facere nemo
+                    iste laboriosam reprehenderit possimus dolore tenetur minus consequatur eos illum, corporis deleniti
+                    voluptates eius. Sed accusantium, consequuntur rerum id dicta, reiciendis fugiat fugit et, eligendi
+                    aspernatur veniam iste ratione soluta ex earum dolor similique nihil repellendus quod corporis
+                    pariatur. Porro natus vero eum tenetur dicta voluptatum est eius, nam eos quae unde sunt saepe
+                    labore atque dolor ipsum maxime aliquam esse corrupti minus odio repellat dignissimos deleniti.
+                    Voluptates id fugiat commodi ut rerum, suscipit placeat laudantium, quod labore quis exercitationem
+                    itaque animi amet.</p>
+            </div>
+            <div class="proje-button">
+                <button class="proje-btn" onclick="gizleGoster('sonuc');">Resimleri görmek için tıklayınız</button>
+            </div>
+            <div class="proje-image" id="sonuc">
+                <img src="resim12.png">
+                <img src="resim12.png">
+                <img src="resim12.png">
+                <img src="resim12.png">
+            </div>
+        </div>
+        <div class="footer-1">
+            <footer class="footer">
+                <div class="footer-left">
+                    <p>MUSTAFA KIZILAY || HYPEREİEN</p>
+                </div>
+                <div class="footer-right">
+                    <a href="https://www.instagram.com/mustafakzlay/" target="_blank"><img src="instagram.png"></a>
+
+                </div>
+            </footer>
+        </div>
+        <video autoplay muted loop class="Video">
+            <source src="production ID_4990237.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+    </div>
+</body>
+
+</html>

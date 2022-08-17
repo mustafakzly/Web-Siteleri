@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="new.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+    <script>
+        function gizleGoster(ID) {
+            var secilenID = document.getElementById(ID);
+            if (secilenID.style.display == "block") {
+                secilenID.style.display = "";
+            } else {
+                secilenID.style.display = "block";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="navbar-left">
+                <a href="new.html"><img src="logo.png"></a>
+            </div>
+            <div class="navbar-right">
+                <a href="blog.html">Blog</a>
+                <a href="hakkımda.html">Hakkımda</a>
+            </div>
+        </div>
+        <div class="write">
+            <p>Web</p>
+            <p>Siteme</p>
+            <p>Hoşgeldiniz</p>
+        </div>
+        <div class="btn">
+            <p id="sonuc">Hypereiens@gmail.com</p>
+            <button class="button" onclick="gizleGoster('sonuc');">Bana Ulaşın</button>
+
+        </div>
+        <div class="footer-1">
+            <footer class="footer">
+                <div class="footer-left">
+                    <p>MUSTAFA KIZILAY || HYPEREİEN</p>
+                </div>
+                <div class="footer-right">
+                    <a href="https://www.instagram.com/mustafakzlay/" target="_blank"><img src="instagram.png"></a>
+
+                </div>
+            </footer>
+        </div>
+        <video autoplay muted loop class="Video">
+            <source src="production ID_4990237.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+    </div>
+</body>
+
+</html>
