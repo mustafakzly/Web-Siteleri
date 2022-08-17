@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background: url(33HI.gif) no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Pushster', cursive;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.box1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    margin-top: 10%;
+}
+.box{
+    width: 175px;
+    height: 175px;
+    border-radius: 200px;
+    background-color: white;
+    background: url(WhatsApp\ Image\ 2021-12-03\ at\ 20.26.22.jpeg) no-repeat center center;
+    background-size: cover;
+}
+h1{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.342);
+}
+a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+button{
+    margin-top: 30px;
+    font-size: 30px;
+    border: 0;
+    border-radius: 10px;
+    background-color: white;
+    padding: 5px;
+    color: black;
+    cursor: pointer;
+    width: 200px;
+}
