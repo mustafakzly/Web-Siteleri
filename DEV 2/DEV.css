@@ -1,0 +1,460 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Merriweather', serif;
+    font-family: 'Raleway', sans-serif;
+    
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    background-color: #FF6B81;
+    padding: 20px  8%;
+    font-size: 18px;
+}
+.nav-bar-left img{
+    width: 100px;
+}
+.nav-bar-center a{
+    text-decoration: none;
+    color: white;
+    margin: 0 20px;
+}
+.nav-bar-right a{
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    padding: 15px 25px;
+    border-radius: 5px;
+}
+.body{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FF6B81;
+    padding: 30px  8%;
+}
+.app-btn{
+    display: flex;
+    align-items: center;
+}
+.app-btn img{
+    width: 20px;
+}
+.apple{
+    display: flex;
+    align-items: center;
+    border: 2px solid white;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    background-color: white;
+    color:#FF6B81;
+    margin-right:20px;
+    margin-top: 20px;
+}
+.play{
+    display: flex;
+    align-items: center;
+    border: 2px solid white;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    color:white;
+    margin-right:20px;
+    margin-top: 20px;
+}
+.app-btn img{
+    margin-right: 12px;
+}
+.body-left h1{
+    color: white;
+    padding: 20px 0;
+}
+.body-left p{
+    color: white;
+    padding: 20px 0;
+}
+.body-right img{
+    width: 100%;
+}
+.boxes{
+   padding: 50px 8%;
+   background-color: #F9F9F9;
+}
+.write * {
+    text-align: center;
+    padding: 20px 1px;
+}
+.write h4{
+    color: #FF6B81;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+}
+.box-in{
+    background-color: white;
+    margin: 20px;
+    padding: 30px;
+    border: 1px solid #EEEEEE;
+    border-radius: 5px;
+}
+.box-in *{
+    padding: 10px 0;
+}
+.box-in img{
+    padding: 20px;
+    background-color: #FF6B81;
+    width: 64px;
+    height: 64px;
+    border-radius: 5px ;
+    box-shadow: 0 6px 5px rgba(0, 0, 0, 0.066);
+}
+.apps-body{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 50px 8%;
+}
+.apps-left * {
+    margin: 30px 0;
+}
+.apps-left{
+    width: 500px;
+    margin: 0 auto;
+}
+.apps-left img{
+    padding: 20px;
+    background-color: #FF6B81;
+    width: 64px;
+    height: 64px;
+    border-radius: 5px ;
+    box-shadow: 0 6px 5px rgba(0, 0, 0, 0.066);
+}
+.apps-left a{
+    text-decoration: none;
+    padding: 15px 30px;
+    background-color: #FF6B81;   
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.apps-right img{
+    width: 100%;
+}
+.apps-right-2 img{
+    width: 100%;
+}
+.apps-right-s{
+   
+    display: none;
+}
+.apps-right-s img{
+    width: 100%;
+}
+.overview{
+    text-align: center;
+    background-color: #FF6B81;
+    color: white;
+}
+.overview h1{
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+.overview-b{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.overview-c{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 10%;
+}
+.pricing{
+    background-color: #F9F9F9;
+}
+.pricing h4{
+    padding-top: 100px;
+}
+.item-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 8%;
+}
+.item{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: white;
+    padding: 30px 30px;
+    width: 100%;
+    margin: 0 10px;
+    border-radius: 20px;
+}
+.item h3{
+    padding: 20px 0;
+}
+.item p{
+    padding: 5px 0;
+}
+.item a{
+    background-color: black;
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.item b{
+    font-size: 40px;
+}
+.write-3 *{
+    text-align: center;
+    padding: 20px 0;
+}
+.write-3 h4{
+    color: #FF6B81;
+}
+.tick p{
+    display: flex;
+    align-items: center;
+}
+.tick h5{
+    padding: 20px 0;
+}
+.tick img{
+    width: 15px;
+    margin-right: 10px;
+}
+.team{
+    padding: 50px 8%;
+}
+.teams{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.teams-item{
+    margin: 0 10px;
+    border: 1px solid #EEEEEE;
+    border-radius: 20px;
+}
+.teams-item-img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.teams-b{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+
+.item-l p{
+    padding: 10px 0;
+    color: #FF6B81;
+}
+.item-r img{
+    margin: 0 8px;
+    width: 15px;
+}
+.download{
+    background-color: #FF6B81;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 100px 20%;
+    color: white;
+}
+.download h1{
+    font-size: 40px;
+    padding: 20px 0;
+}
+.download p{
+    padding: 20px 0;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #081828;
+    color: white;
+    padding: 50px 8%;
+}
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    padding: 0 10%;
+}
+.footer-item h3{
+    padding: 20px 0;
+}
+.footer-item a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 0;
+}
+.footer-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #081828;
+    padding: 20px 8%;
+}
+.logo img{
+    width: 70px;
+}
+.logos img{
+    width: 20px;
+    margin: 0 10px;
+}
+
+@media (max-width: 575.98px) { 
+    .nav-bar-left img{
+        width: 80px;
+    }
+    .nav-bar-center a{
+        display: none;
+    }
+    .nav-bar-right a{
+        padding: 10px 15px;
+    }
+    .body{
+        flex-direction: column;
+    }
+    .app-btn{
+        justify-content: center;
+    }
+    .app-btn img{
+        width: 20px;
+    }
+    .apple{
+        padding: 12px 22px;
+        margin-right:10px;
+        font-size: 12px;
+    }
+    .play{
+        padding: 12px 22px;
+        margin-right:10px;
+        font-size: 12px;
+    }
+    .app-btn img{
+        margin-right: 12px;
+    }
+    .body-left h1{
+        color: white;
+        padding: 12px 0;
+    }
+    .body-left p{
+        color: white;
+        padding: 12px 0;
+    }
+    .body-right{
+        margin-top: 30px;
+    }
+    .box{
+        flex-direction: column;
+    }
+    .apps-body{
+        flex-direction: column;
+        padding: 20px 8%;
+    }
+    .apps-right-s{
+        display: block;
+        margin-top: 50px;
+    }
+    .apps-left{
+        width: 100%;
+    }
+    .apps-left h1{
+        font-size: 25px;
+    }
+    .apps-left p{
+        font-size: 15px;
+    }
+    .apps-right img{
+        margin-top: 50px;
+    }
+    .apps-right-2 img{
+        display: none;
+    }
+    .overview{
+        padding: 50px 8%;
+    }
+    .overview h1{
+        padding-top: 50px;
+    }
+    .overview-b{
+        flex-direction: column;
+    }
+    .overview-c{
+        padding: 10px 8%;
+    }
+    .pricing{
+        padding: 50px 8%;
+    }
+    .item-div{
+        flex-direction: column;
+        padding: 50px 8%;
+    }
+    .item{
+        margin: 20px 0;
+    }
+    .team{
+        padding: 50px 8%;
+    }
+    .teams{
+        flex-direction: column;
+    }
+    .teams-item{
+        margin: 20px 10px;
+    }
+    .download{
+        padding: 50px 8%;
+    }
+    .download h1{
+        font-size: 20px;
+    }
+    .download p{
+        font-size: 15px;
+    }
+    .footer{
+        align-items: flex-start;
+        justify-content: start;
+        flex-direction: column;
+        padding: 50px 0;
+    }
+    .footer-item h3{
+        font-size: 15px;
+    }
+    .footer-item a{
+        font-size: 12px;
+    }
+    .footer-bottom{
+        padding: 20px 8%;
+    }
+    .logo img{
+        width: 50px;
+    }
+    .logos img{
+        width: 15px;
+    }
+}
